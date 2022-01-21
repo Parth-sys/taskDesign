@@ -1,38 +1,61 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
+.banner {
+  background-color: #464660;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+h2 {
+  padding: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.banner:hover {
+  background-color: #628395;
+}
+.bt {
+  background-color: #ebebf3;
+}
+.bt2 {
+  background-color:transparent;
+  border: 1 px solid black;
+  
+  margin-left: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: whitesmoke;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+
+
+.p {
+  text-decoration: line-through;
+  display: inline-flex;
+}
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Container {
+  position: relative;
 }

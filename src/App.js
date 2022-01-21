@@ -1,6 +1,6 @@
 import "./App.css";
 import { Grid } from "@material-ui/core";
-import { Badge } from "@material-ui/core";
+
 
 import { BsFillCartFill } from 'react-icons/bs';
 export default function App() {

@@ -1,8 +1,7 @@
 import "./App.css";
 import { Grid } from "@material-ui/core";
-
-
 import { BsFillCartFill } from 'react-icons/bs';
+
 export default function App() {
   const data = [
     {
@@ -56,7 +55,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <input placeholder="enter item" type="text"></input>
+      <input placeholder="enter item" type="text" style={{margin:10}} ></input>
       <button className="bt">Add </button>
     
       <button className="bt2">    < BsFillCartFill></BsFillCartFill>        Cart <text style={{backgroundColor:"black",color:"white"}}>0</text> </button>
